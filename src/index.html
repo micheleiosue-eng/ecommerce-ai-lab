@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Il topo ladro</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="topbar">
+      <div class="brand"><span class="brand-mark">🐭</span><span>Il topo ladro</span></div>
+      <span class="difficulty">Difficoltà <b>★★☆☆☆</b></span>
+    </header>
+
+    <section class="hero">
+      <div>
+        <p class="eyebrow">Operazione formaggio</p>
+        <h1>Silenzio.<br><em>Si ruba.</em></h1>
+      </div>
+      <p class="hero-copy">Prendi i tre snack, evita il gatto e torna nella tana. Se ti vede, corri al mobiletto più vicino!</p>
+    </section>
+
+    <section class="hud" aria-label="Stato della partita">
+      <div><span>Bottino</span><strong id="loot">0 / 3</strong></div>
+      <div><span>Stato gatto</span><strong id="cat-status">Pisolino</strong></div>
+      <div><span>Obiettivo</span><strong id="objective">Ruba tutto</strong></div>
+    </section>
+
+    <section class="game-card">
+      <div class="game-head"><span id="message">Pronto per il colpo?</span><button id="restart" type="button">↻ Ricomincia</button></div>
+      <div class="canvas-wrap">
+        <canvas id="game" width="800" height="520" tabindex="0" aria-label="Gioco top-down Il topo ladro"></canvas>
+        <div id="overlay" class="overlay">
+          <div class="overlay-icon">🐭</div>
+          <h2 id="overlay-title">Il colpo perfetto</h2>
+          <p id="overlay-copy">Raccogli formaggio, biscotto e mela. Poi torna alla tana.</p>
+          <button id="start" class="primary" type="button">Inizia il furto <span>→</span></button>
+        </div>
+      </div>
+      <div class="controls">
+        <div class="keys"><span>Muovi</span><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd><span>o frecce</span></div>
+        <div class="keys"><kbd>E</kbd><span>raccogli / nasconditi</span></div>
+        <div class="touch" aria-label="Controlli touch"><button data-key="ArrowLeft" type="button">←</button><button data-key="ArrowUp" type="button">↑</button><button data-key="ArrowDown" type="button">↓</button><button data-key="ArrowRight" type="button">→</button><button data-key="e" type="button">E</button></div>
+      </div>
+    </section>
+
+    <footer><span>Una casa. Tre snack. Un gatto troppo curioso.</span><span>ecommerce-ai-lab / MVP 001</span></footer>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
