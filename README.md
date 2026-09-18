@@ -2,6 +2,10 @@
 
 Mini gioco top-down del laboratorio Spec Driven Development.
 
+## Download
+
+Scarica [Il topo ladro v1.0.0](downloads/il-topo-ladro-v1.0.0.zip), estrai il file ZIP e apri `index.html` con un browser moderno. Non servono Git, Python o altre installazioni.
+
 ## Avvio
 
 Apri `src/index.html` in un browser oppure avvia un server statico dalla root:
