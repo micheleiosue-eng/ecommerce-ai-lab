@@ -6,6 +6,10 @@ Mini gioco top-down del laboratorio Spec Driven Development.
 
 Scarica [Il topo ladro v1.0.0](downloads/il-topo-ladro-v1.0.0.zip), estrai il file ZIP e apri `index.html` con un browser moderno. Non servono Git, Python o altre installazioni.
 
+## Gioca online
+
+Apri direttamente il gioco su [GitHub Pages](https://micheleiosue-eng.github.io/ecommerce-ai-lab/). La pagina viene aggiornata automaticamente a ogni modifica pubblicata su `main`.
+
 ## Avvio
 
 Apri `src/index.html` in un browser oppure avvia un server statico dalla root:
